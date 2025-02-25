@@ -9,7 +9,7 @@ for i in range(255):
     d[chr(i)] = i
     c[i] = chr(i)
 
-img = cv2.imread("nature.jpg")
+img = cv2.imread("flower.jpg")
 
 i = img.shape[0]
 j = img.shape[1]
